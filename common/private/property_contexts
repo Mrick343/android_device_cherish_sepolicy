@@ -21,3 +21,6 @@ persist.powerusage_provider_google     u:object_r:exported_system_prop:s0
 
 # Tethering
 persist.device_config.tethering.        u:object_r:device_config_tethering_prop:s0
+
+# xtra-daemon control
+persist.sys.xtra-daemon.enabled        u:object_r:xtra_control_prop:s0 exact bool
